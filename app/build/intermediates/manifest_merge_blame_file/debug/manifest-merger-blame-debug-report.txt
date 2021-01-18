@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dicoding.picodiploma.githubuserapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:6:5-26:19
+12        android:allowBackup="true"
+12-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\303933cce27f4805d71c796bb5b9b403\core-1.3.2\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/github_logo"
+15-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:9:9-41
+17        android:requestLegacyExternalStorage="true"
+17-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:13:9-52
+18        android:roundIcon="@mipmap/github_logo"
+18-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:10:9-48
+19        android:supportsRtl="true"
+19-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:11:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:12:9-40
+22        <activity
+22-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:15:9-23:20
+23            android:name="com.dicoding.picodiploma.githubuserapp.SplashScreen"
+23-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:15:19-47
+24            android:screenOrientation="portrait"
+24-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:16:13-49
+25            android:theme="@style/AppThemeSplashScreen" >
+25-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:17:13-56
+26            <intent-filter>
+26-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:18:13-22:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:19:17-69
+27-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:19:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:21:17-77
+29-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:21:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.dicoding.picodiploma.githubuserapp.UserDetailActivity" />
+32-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:24:9-56
+32-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:24:19-53
+33        <activity android:name="com.dicoding.picodiploma.githubuserapp.MainActivity" />
+33-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:25:9-49
+33-->D:\Tugas & Perkuliahan\SMT 5\PCS\GitHub-User-App-main\GitHubUserApp\Submission 1\app\src\main\AndroidManifest.xml:25:19-47
+34    </application>
+35
+36</manifest>
